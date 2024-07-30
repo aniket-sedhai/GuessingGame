@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A15BB2CE2C1FD5E7000017A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A15BB2CD2C1FD5E7000017A4 /* main.cpp */; };
+		A15BB2D62C1FD642000017A4 /* GuessingGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A15BB2D42C1FD642000017A4 /* GuessingGame.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A15BB2CA2C1FD5E7000017A4 /* GuessingGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuessingGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15BB2CD2C1FD5E7000017A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A15BB2D42C1FD642000017A4 /* GuessingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GuessingGame.cpp; sourceTree = "<group>"; };
+		A15BB2D52C1FD642000017A4 /* GuessingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessingGame.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A15BB2CD2C1FD5E7000017A4 /* main.cpp */,
+				A15BB2D42C1FD642000017A4 /* GuessingGame.cpp */,
+				A15BB2D52C1FD642000017A4 /* GuessingGame.h */,
 			);
 			path = GuessingGame;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15BB2D62C1FD642000017A4 /* GuessingGame.cpp in Sources */,
 				A15BB2CE2C1FD5E7000017A4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
